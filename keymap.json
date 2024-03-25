@@ -1,0 +1,24 @@
+[
+  {
+    "context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting && !menu",
+    "bindings": {
+      "w": "vim::Up",
+      "s": "vim::Down",
+      "a": "vim::Left",
+      "d": "vim::Right",
+
+      "W": "vim::PageUp",
+      "S": "vim::PageUp",
+      "A": "vim::PreviousWordEnd",
+      "D": "vim::NextWordEnd",
+
+      "q": "vim::InsertBefore",
+      "e": "vim::InsertAfter",
+
+      "`": "vim::StartOfLineDownward",
+      "0": "vim::EndOfLine",
+
+      "k": "vim::VisualDelete"
+    }
+  }
+]
