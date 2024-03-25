@@ -18,7 +18,8 @@
       "`": "vim::StartOfLineDownward",
       "0": "vim::EndOfLine",
 
-      "k": "vim::VisualDelete"
+      "k": "vim::VisualDelete",
+      "k k": "editor::DeleteLine"
     }
   }
 ]
