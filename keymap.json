@@ -9,7 +9,7 @@
 
       "W": "vim::PageUp",
       "S": "vim::PageUp",
-      "A": "vim::PreviousWordEnd",
+      "A": "vim::PreviousWordStart",
       "D": "vim::NextWordEnd",
 
       "q": "vim::InsertBefore",
