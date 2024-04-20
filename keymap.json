@@ -19,7 +19,11 @@
       "0": "vim::EndOfLine",
 
       "k": "vim::VisualDelete",
-      "k k": "editor::DeleteLine"
+      "k k": "editor::DeleteLine",
+
+      "j": "vim::Search",
+
+      "f": "editor::Format"
     }
   }
 ]
